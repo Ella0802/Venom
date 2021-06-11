@@ -215,12 +215,14 @@ img {
     background: #14131a;
   }
   .venom {
-    top: 15%;
-    width: 35%;
-  }
+    top: 10%;    
 }
 
 @media (max-width: 576px) {
+  .venom {
+    top: 15%;
+    width: 35%;
+  }
   .nav-menu {
     /*display: none;*/
     position: fixed;
