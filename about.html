@@ -15,11 +15,19 @@
   <div class="conteiner">
 
     <header class="header">
-      <a href="/" class="logo-link">
+      <a href="index.html" class="logo-link">
         <img width="46" height="71" src="img/logo.png" alt="logo: venom" class="logo-image">
       </a>
       <nav class="nav">
-        <ul class="nav-menu">      
+        <button class="menu-button">
+          <span class="menu-button-text">меню</span>
+          <img src="img/burger menu.svg" alt="icon: burger menu" class="menu-button-icon">
+        </button>
+        <button class="menu-close">
+          <span class="menu-close-text">закрыть</span>
+          <img src="img/arrow.svg" alt="icon: arrow right" class="menu-close-icon">
+        </button>
+        <ul class="nav-menu">
           <li class="nav-menu-item">
             <a href="about.html" class="nav-menu-link">о фильме</a>
           </li>
@@ -33,7 +41,7 @@
             <a href="premier.html" class="nav-menu-link">премьера</a>
           </li>
         </ul>
-      </nav>
+      </nav>     
     </header>
 
     <div class="content">
@@ -55,9 +63,9 @@
           <li class="list-item">Пегги Лу</li>
         </ul>
         <div class="trailer">
-          <button class="play">            
-            <img src="img/play.svg" alt="icon: play" class="play-icon">            
-          </button>          
+          <a data-fancybox href="https://www.youtube.com/watch?v=ciNNolBbm2g" class="play">
+            <img src="img/play.svg" alt="icon: play" class="play-icon">      
+          </a>
         </div>
       </div>
 
@@ -89,6 +97,6 @@
     </div>
 
   </div>  
-
+  <script src="js/main.js"></script>
 </body>
 </html>
